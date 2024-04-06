@@ -1,0 +1,29 @@
+
+h2 {
+    margin-top: 30px;
+}
+
+.form-labels {
+    display: inline-block;
+    width: 110px;
+}
+
+label {
+    display: block;
+    margin-bottom: 7px;
+}
+
+.form-inputs {
+    display: inline-block;
+    width: 200px;
+}
+
+input {
+    display: block;
+    margin-bottom: 5px;
+}
+
+button {
+    margin: 15px 0 45px 0;
+    display: block;
+}

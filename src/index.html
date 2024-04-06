@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tickets</title>
+</head>
+
+<body>
+    <div class="content">
+        <h2>Create ticket</h2>
+        <form class="create-ticket-form" action="http://localhost:7070" method="POST">
+            <div class="form-labels">
+                <label for="title">Name</label>
+                <label for="description">Description</label>
+                <label for="status">Status</label>
+            </div>
+            <div class="form-inputs">
+                <input class="ticket-name" type="text" name="title">
+                <input class="ticket-description" type="text" name="description">
+                <input class="ticket-status" type="text" name="status">
+            </div>
+
+            <button class="create-btn">Create</button>
+        </form>
+
+        <h2>All tickets</h2>
+        <button class="all-tickets-btn">Show all tickets</button>
+
+        <h2>Ticket by id</h2>
+        <form class="ticket-by-id-form">
+            <div class="form-labels">
+                <label for="id">Id</label>
+            </div>
+            <div class="form-inputs">
+                <input class="ticket-id" type="text" name="id">
+            </div>
+
+            <button class="ticket-by-id-btn">Show ticket</button>
+        </form>
+    </div>
+</body>
+
+</html>
